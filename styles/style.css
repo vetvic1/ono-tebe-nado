@@ -133,10 +133,11 @@
 }
 
 .bet-button {
+  font-family: inherit;
   background-color: transparent;
   border: 1px solid #fff;
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   color: #fff;
   text-align: center;
   font-size: 22px;
@@ -144,6 +145,7 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .lots {
@@ -261,14 +263,14 @@
 }
 
 .about {
-  padding: 0px 50px 184px;
+  padding: 0px 50px;
+  margin-bottom: 180px;
 }
 
 .about__column {
   display: grid;
-  justify-items: center;
   grid-template-columns: 430px 1fr;
-  grid-template-rows: 487px;
+  width: 1340px;
 }
 
 .about__logo {
@@ -276,6 +278,8 @@
   height: 240px;
   background-color: #000;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about__logo-image {
@@ -291,9 +295,7 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 25px;
+  margin: 100px 25px;
 }
 
 .about__text {
@@ -308,7 +310,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 590px 2fr 590px;
+  grid-template-columns: 241px 2fr 241px;
   grid-template-rows: 95px;
   justify-content: space-between;
   align-items: flex-start;
@@ -319,6 +321,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__menu-list {
@@ -331,7 +335,7 @@
 
 .footer__menu-list-item {
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
