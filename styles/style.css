@@ -256,7 +256,6 @@
   line-height: normal;
   text-underline-offset: 5px;
   padding-left: 40px;
-  padding-left: 40px;
   display: block;
   margin-top: 30px;
 }
@@ -332,6 +331,7 @@
 
 .footer__menu-list-item {
   text-align: center;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -347,15 +347,6 @@
   justify-content: flex-end;
   gap: 45px;
   list-style: none;
-}
-
-.footer__menu-list-item {
-  text-align: center;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .footer__social-link {
